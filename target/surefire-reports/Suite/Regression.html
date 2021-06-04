@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>TestNG:  Regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jan 31 22:06:43 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>111 seconds (111616 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runners.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runners.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if username left blank", "Optional[Login]"</td>
+<td><div><pre>java.lang.AssertionError: expected [User Name cannot be blank] but found []
+	at pages.LoginPage.verifyErrBlankUsername(LoginPage.java:110)
+	at steps.LoginSteps.error_message_should_display_for_blank_username(LoginSteps.java:101)
+	at ?.error message should display for blank username(file:///D:/Mesoka_BDD/src/test/java/features/Login.feature:11)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace736338288", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace736338288'><pre>java.lang.AssertionError: expected [User Name cannot be blank] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at pages.LoginPage.verifyErrBlankUsername(LoginPage.java:110)
+	at steps.LoginSteps.error_message_should_display_for_blank_username(LoginSteps.java:101)
+	at ?.error message should display for blank username(file:///D:/Mesoka_BDD/src/test/java/features/Login.feature:11)
+</pre></div></td>
+<td>40</td>
+<td>runners.LoginRunner@6c779568</td></tr>
+<tr>
+<td title='runners.ChangePasswordRunner.runScenario()'><b>runScenario</b><br>Test class: runners.ChangePasswordRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the functionality of change password link.", "Optional[Change Password]"</td>
+<td><div><pre>java.lang.AssertionError: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;MAYANKM&apos;, ip: &apos;10.0.8.154&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\mayankm\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 958fe088221385aaa0f9376a926927d5
+	at pages.ChangePasswordPage.clickChangePassword(ChangePasswordPage.java:57)
+	at steps.ChangePasswordSteps.click_on_change_password_link(ChangePasswordSteps.java:43)
+	at ?.click on change password link(file:///D:/Mesoka_BDD/src/test/java/features/ChangePassword.feature:9)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1879702395", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1879702395'><pre>java.lang.AssertionError: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;MAYANKM&apos;, ip: &apos;10.0.8.154&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\mayankm\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 958fe088221385aaa0f9376a926927d5
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.ChangePasswordPage.clickChangePassword(ChangePasswordPage.java:57)
+	at steps.ChangePasswordSteps.click_on_change_password_link(ChangePasswordSteps.java:43)
+	at ?.click on change password link(file:///D:/Mesoka_BDD/src/test/java/features/ChangePassword.feature:9)
+</pre></div></td>
+<td>110</td>
+<td>runners.ChangePasswordRunner@6f27a732</td></tr>
+</table><p>
+</body>
+</html>

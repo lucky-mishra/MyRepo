@@ -1,0 +1,14 @@
+04/06/2021 21:27:37 0    [INFO ]  Chrome browser launched 
+04/06/2021 21:27:38 497  [INFO ]  ------------------------------ 
+04/06/2021 21:27:38 497  [INFO ]  Starting - Verify login with valid credentials 
+04/06/2021 21:27:38 497  [INFO ]  ------------------------------ 
+04/06/2021 21:27:52 14433 [INFO ]  click on sign in link 
+04/06/2021 21:27:53 15551 [INFO ]  Enter user name as lucky1985.mayank@gmail.com 
+04/06/2021 21:27:53 15705 [INFO ]  Enter password as mayank24 
+04/06/2021 21:27:55 17770 [INFO ]  Click on proceed button 
+04/06/2021 21:27:55 17847 [INFO ]  User got logined 
+04/06/2021 21:27:57 19696 [INFO ]  ------------------------------ 
+04/06/2021 21:27:57 19712 [INFO ]  Verify login with valid credentials Status - FAILED 
+04/06/2021 21:27:57 19712 [INFO ]  ------------------------------ 
+04/06/2021 21:27:57 19981 [INFO ]  Screnshot TakenVerify login with valid credentials 
+04/06/2021 21:27:58 21231 [INFO ]  Closing the driver 

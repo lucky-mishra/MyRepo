@@ -1,0 +1,190 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15430000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on home page",
+            "match": {
+              "location": "steps.LoginStepsNew.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T16:06:06.972Z",
+        "before": [
+          {
+            "result": {
+              "duration": 45948000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hook.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hook.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify login with valid credentials",
+        "description": "",
+        "id": "login;verify-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hook.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2636000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hook.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8924000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on signin link",
+            "match": {
+              "location": "steps.LoginStepsNew.click_on_signin_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 731000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login page should get open",
+            "match": {
+              "location": "steps.LoginStepsNew.login_page_should_get_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2422000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter username as \"lucky1985.mayank@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lucky1985.mayank@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.LoginStepsNew.enter_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 306000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter password as \"mayank24\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mayank24\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.LoginStepsNew.enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2338000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click signin button",
+            "match": {
+              "location": "steps.LoginStepsNew.click_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8944000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify that user got logged in",
+            "match": {
+              "location": "steps.LoginStepsNew.verify_that_user_got_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LoginNew.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

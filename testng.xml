@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Regression" parallel="classes">
+        <classes>
+            <!--<class name="runners.ChangePasswordRunner"/>-->
+            <class name="runners.LoginRunner"/>
+
+        </classes>
+    </test>
+    <!--<test name="Rerun">
+        <classes>
+            <class name="runners.RerunGen"/>
+        </classes>
+    </test>-->
+    <!--<test name="Failed Cases">
+        <classes>
+            <class name="runners.FailedScenariosRunner"/>
+        </classes>
+    </test>-->
+</suite>

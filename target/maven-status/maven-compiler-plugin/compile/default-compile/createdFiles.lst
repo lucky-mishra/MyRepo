@@ -1,0 +1,8 @@
+pages\LoginPage.class
+util\PropertyReader.class
+util\Log.class
+util\RerunFile.class
+manager\PageObjectManager.class
+pages\ChangePasswordPage.class
+manager\FileReaderManager.class
+factory\DriverFactory.class

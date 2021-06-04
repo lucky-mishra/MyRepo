@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="111616" started-at="2021-01-31T22:06:43 IST" finished-at="2021-01-31T22:08:35 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.ChangePasswordRunner@6f27a732]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.LoginRunner@6c779568]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Regression" duration-ms="111616" started-at="2021-01-31T22:06:43 IST" finished-at="2021-01-31T22:08:35 IST">
+      <class name="runners.ChangePasswordRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.ChangePasswordRunner@6f27a732]" name="setUpClass" is-config="true" duration-ms="871" started-at="2021-01-31T22:06:43 IST" finished-at="2021-01-31T22:06:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.ChangePasswordRunner@6f27a732]" name="runScenario" duration-ms="110427" started-at="2021-01-31T22:06:44 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-31T22:08:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the functionality of change password link."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Change Password]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'MAYANKM', ip: '10.0.8.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\mayankm\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 958fe088221385aaa0f9376a926927d5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'MAYANKM', ip: '10.0.8.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\mayankm\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 958fe088221385aaa0f9376a926927d5
+at org.testng.Assert.fail(Assert.java:99)
+at pages.ChangePasswordPage.clickChangePassword(ChangePasswordPage.java:57)
+at steps.ChangePasswordSteps.click_on_change_password_link(ChangePasswordSteps.java:43)
+at ✽.click on change password link(file:///D:/Mesoka_BDD/src/test/java/features/ChangePassword.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.ChangePasswordRunner@6f27a732]" name="tearDownClass" is-config="true" duration-ms="302" started-at="2021-01-31T22:08:34 IST" finished-at="2021-01-31T22:08:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.ChangePasswordRunner -->
+      <class name="runners.LoginRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.LoginRunner@6c779568]" name="setUpClass" is-config="true" duration-ms="871" started-at="2021-01-31T22:06:43 IST" finished-at="2021-01-31T22:06:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.LoginRunner@6c779568]" name="runScenario" duration-ms="40635" started-at="2021-01-31T22:06:44 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-31T22:07:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if username left blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [User Name cannot be blank] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [User Name cannot be blank] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at pages.LoginPage.verifyErrBlankUsername(LoginPage.java:110)
+at steps.LoginSteps.error_message_should_display_for_blank_username(LoginSteps.java:101)
+at ✽.error message should display for blank username(file:///D:/Mesoka_BDD/src/test/java/features/Login.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.LoginRunner@6c779568]" name="tearDownClass" is-config="true" duration-ms="3355" started-at="2021-01-31T22:07:25 IST" finished-at="2021-01-31T22:07:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.LoginRunner -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
