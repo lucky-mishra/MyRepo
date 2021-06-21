@@ -1,8 +1,7 @@
-pages\LoginPage.class
-util\PropertyReader.class
 util\Log.class
 util\RerunFile.class
-manager\PageObjectManager.class
-pages\ChangePasswordPage.class
-manager\FileReaderManager.class
+pages\ForgetPasswordPage.class
+util\Testlink.class
+pages\LoginPageNew.class
+util\PropertyReader.class
 factory\DriverFactory.class

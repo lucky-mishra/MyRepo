@@ -14,6 +14,7 @@ import util.PropertyReader;
 import util.RerunFile;
 
 import java.io.*;
+import java.net.MalformedURLException;
 
 
 public class Hook {
@@ -22,7 +23,7 @@ public class Hook {
     RerunFile rerunFile=new RerunFile();
 
     @Before(order = 0)
-    public void launchBrowser() {
+    public void launchBrowser() throws MalformedURLException {
         String browserName = new PropertyReader().readProperty("browser");
         driverFactory = new DriverFactory();
         driver = driverFactory.initBrowser(browserName);

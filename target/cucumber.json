@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15430000000,
+              "duration": 20548000000,
               "status": "passed"
             },
             "line": 5,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-04T16:06:06.972Z",
+        "start_timestamp": "2021-06-21T17:56:32.570Z",
         "before": [
           {
             "result": {
-              "duration": 45948000000,
+              "duration": 8796000000,
               "status": "passed"
             },
             "match": {
@@ -37,6 +37,7 @@
           },
           {
             "result": {
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -51,7 +52,7 @@
         "after": [
           {
             "result": {
-              "duration": 78000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "match": {
@@ -68,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 2636000000,
+              "duration": 189000000,
               "status": "passed"
             },
             "match": {
@@ -81,7 +82,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8924000000,
+              "duration": 15995000000,
               "status": "passed"
             },
             "line": 8,
@@ -93,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 731000000,
+              "duration": 565000000,
               "status": "passed"
             },
             "line": 9,
@@ -105,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 2422000000,
+              "duration": 1382000000,
               "status": "passed"
             },
             "line": 10,
@@ -123,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 306000000,
+              "duration": 162000000,
               "status": "passed"
             },
             "line": 11,
@@ -141,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 2338000000,
+              "duration": 15759000000,
               "status": "passed"
             },
             "line": 12,
@@ -153,10 +154,190 @@
           },
           {
             "result": {
-              "duration": 8944000000,
+              "duration": 1906000000,
               "status": "passed"
             },
             "line": 13,
+            "name": "verify that user got logged in",
+            "match": {
+              "location": "steps.LoginStepsNew.verify_that_user_got_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20975000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on home page",
+            "match": {
+              "location": "steps.LoginStepsNew.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-21T17:56:32.706Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9445000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hook.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hook.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify login with valid credentials",
+        "description": "",
+        "id": "login;verify-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hook.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "embeddings": [
+              {
+                "data": "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KgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAEAmwSoAAAAAQCbBKgAAAABAJsEqAAAAAMD/344dCwAAAAAM8rcew/7CaBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAABTyHAakYrPdSoAAAAASUVORK5CYII\u003d",
+                "mime_type": "image/png",
+                "name": "Verify login with valid credentials"
+              },
+              {
+                "data": "L3NyYy9tYWluL3Jlc291cmNlcy9Mb2dNYXN0ZXIubG9n",
+                "mime_type": "text/plain",
+                "name": "Logs"
+              }
+            ],
+            "result": {
+              "duration": 250000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hook.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 532000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on signin link",
+            "match": {
+              "location": "steps.LoginStepsNew.click_on_signin_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: \u00274.0.0-alpha-6\u0027, revision: \u00275f43a29cfc\u0027\nSystem info: host: \u0027DESKTOP-OAD3O7D\u0027, ip: \u0027192.168.1.33\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_291\u0027\nDriver info: driver.version: RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\lucky\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c2b75fc1e08da63feec474c177a...}\nSession ID: c2b75fc1e08da63feec474c177a024ea\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:603)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:394)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy25.isDisplayed(Unknown Source)\r\n\tat pages.LoginPageNew.verifyLoginPage(LoginPageNew.java:41)\r\n\tat steps.LoginStepsNew.login_page_should_get_open(LoginStepsNew.java:48)\r\n\tat ✽.login page should get open(file:///F:/Dummy_BDD/src/test/java/features/LoginNew.feature:20)\r\nCaused by: java.lang.RuntimeException: NettyHttpHandler request execution error\r\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)\r\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)\r\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:55)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:394)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy25.isDisplayed(Unknown Source)\r\n\tat pages.LoginPageNew.verifyLoginPage(LoginPageNew.java:41)\r\n\tat steps.LoginStepsNew.login_page_should_get_open(LoginStepsNew.java:48)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116)\r\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)\r\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)\r\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)\r\n\tat org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)\r\n\tat org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 60000 ms\r\n\tat java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)\r\n\tat java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1908)\r\n\tat org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)\r\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)\r\n\t... 52 more\r\nCaused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 60000 ms\r\n\tat org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)\r\n\tat org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)\r\n\tat io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)\r\n\tat io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)\r\n\tat io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)\r\n\tat io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)\r\n\t... 1 more\r\n",
+              "duration": 60151000000,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "login page should get open",
+            "match": {
+              "location": "steps.LoginStepsNew.login_page_should_get_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "enter username as \"lucky1985.mayank@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lucky1985.mayank@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.LoginStepsNew.enter_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "enter password as \"mayank27\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mayank27\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.LoginStepsNew.enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "click signin button",
+            "match": {
+              "location": "steps.LoginStepsNew.click_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
             "name": "verify that user got logged in",
             "match": {
               "location": "steps.LoginStepsNew.verify_that_user_got_logged_in()"

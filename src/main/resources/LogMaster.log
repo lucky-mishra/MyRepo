@@ -1,13 +1,23 @@
-04/06/2021 21:36:52 0    [INFO ]  Chrome browser launched 
-04/06/2021 21:36:53 374  [INFO ]  ------------------------------ 
-04/06/2021 21:36:53 374  [INFO ]  Starting - Verify login with valid credentials 
-04/06/2021 21:36:53 374  [INFO ]  ------------------------------ 
-04/06/2021 21:37:17 24729 [INFO ]  click on sign in link 
-04/06/2021 21:37:20 27900 [INFO ]  Enter user name as lucky1985.mayank@gmail.com 
-04/06/2021 21:37:21 28206 [INFO ]  Enter password as mayank24 
-04/06/2021 21:37:23 30545 [INFO ]  Click on proceed button 
-04/06/2021 21:37:23 30618 [INFO ]  User got logined 
-04/06/2021 21:37:32 39493 [INFO ]  ------------------------------ 
-04/06/2021 21:37:32 39571 [INFO ]  Verify login with valid credentials Status - PASSED 
-04/06/2021 21:37:32 39571 [INFO ]  ------------------------------ 
-04/06/2021 21:37:35 42207 [INFO ]  Closing the driver 
+21/06/2021 23:26:39 0    [INFO ]  Grid Chrome browser launched 
+21/06/2021 23:26:39 36   [INFO ]  Grid Chrome browser launched 
+21/06/2021 23:26:41 2066 [INFO ]  ------------------------------ 
+21/06/2021 23:26:41 2066 [INFO ]  Starting - Verify login with valid credentials 
+21/06/2021 23:26:41 2066 [INFO ]  ------------------------------ 
+21/06/2021 23:26:42 2690 [INFO ]  ------------------------------ 
+21/06/2021 23:26:42 2691 [INFO ]  Starting - Verify login with valid credentials 
+21/06/2021 23:26:42 2691 [INFO ]  ------------------------------ 
+21/06/2021 23:27:03 24198 [INFO ]  click on sign in link 
+21/06/2021 23:27:18 38612 [INFO ]  click on sign in link 
+21/06/2021 23:27:20 40563 [INFO ]  Enter user name as lucky1985.mayank@gmail.com 
+21/06/2021 23:27:20 40726 [INFO ]  Enter password as mayank24 
+21/06/2021 23:27:35 56486 [INFO ]  Click on proceed button 
+21/06/2021 23:27:36 56575 [INFO ]  User got logined 
+21/06/2021 23:27:37 58393 [INFO ]  ------------------------------ 
+21/06/2021 23:27:37 58409 [INFO ]  Verify login with valid credentials Status - PASSED 
+21/06/2021 23:27:37 58409 [INFO ]  ------------------------------ 
+21/06/2021 23:27:38 58598 [INFO ]  Closing the driver 
+21/06/2021 23:28:03 84488 [INFO ]  ------------------------------ 
+21/06/2021 23:28:03 84489 [INFO ]  Verify login with valid credentials Status - FAILED 
+21/06/2021 23:28:03 84489 [INFO ]  ------------------------------ 
+21/06/2021 23:28:04 84739 [INFO ]  Screnshot TakenVerify login with valid credentials 
+21/06/2021 23:28:04 84802 [INFO ]  Closing the driver 
